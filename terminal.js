@@ -469,6 +469,36 @@ ${info.hobbies.map(hobby => `<div class="list-item">${hobby}</div>`).join('')}
     `;
 }
 
+function getGallery() {
+    return `
+<div class="section-title">📸 Photo Gallery</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin: 1.5rem 0;">
+    <div style="position: relative; border-radius: 12px; overflow: hidden; border: 2px solid var(--accent); box-shadow: 0 8px 32px rgba(100, 255, 218, 0.2); transition: all 0.3s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 12px 48px rgba(100, 255, 218, 0.4)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 8px 32px rgba(100, 255, 218, 0.2)';">
+        <img src="images/profile.jpeg" alt="Profile" style="width: 100%; height: 250px; object-fit: cover; display: block;">
+        <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(0,0,0,0.9)); padding: 1rem; color: white;">
+            <p style="font-weight: 600; margin: 0;">Arnav Agnihotri</p>
+            <p style="font-size: 0.85rem; margin: 0.25rem 0 0 0; color: var(--accent);">CSE @ IIIT Hyderabad</p>
+        </div>
+    </div>
+    <div style="position: relative; border-radius: 12px; overflow: hidden; border: 2px solid var(--accent); box-shadow: 0 8px 32px rgba(100, 255, 218, 0.2); transition: all 0.3s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 12px 48px rgba(100, 255, 218, 0.4)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 8px 32px rgba(100, 255, 218, 0.2)';">
+        <img src="images/Pasted image.png" alt="Achievement" style="width: 100%; height: 250px; object-fit: cover; display: block;">
+        <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(0,0,0,0.9)); padding: 1rem; color: white;">
+            <p style="font-weight: 600; margin: 0;">Sports & Achievements</p>
+            <p style="font-size: 0.85rem; margin: 0.25rem 0 0 0; color: var(--accent);">Football Champion ⚽</p>
+        </div>
+    </div>
+    <div style="position: relative; border-radius: 12px; overflow: hidden; border: 2px solid var(--accent); box-shadow: 0 8px 32px rgba(100, 255, 218, 0.2); transition: all 0.3s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 12px 48px rgba(100, 255, 218, 0.4)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 8px 32px rgba(100, 255, 218, 0.2)';">
+        <img src="images/Pasted image (2).png" alt="Campus Life" style="width: 100%; height: 250px; object-fit: cover; display: block;">
+        <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(0,0,0,0.9)); padding: 1rem; color: white;">
+            <p style="font-weight: 600; margin: 0;">Campus Life</p>
+            <p style="font-size: 0.85rem; margin: 0.25rem 0 0 0; color: var(--accent);">IIIT Hyderabad 🎓</p>
+        </div>
+    </div>
+</div>
+<p style="text-align: center; color: var(--text-secondary); margin-top: 1rem;">Hover over images to see them zoom! ✨</p>
+    `;
+}
+
 function getContact() {
     return `
 <div class="section-title">📧 Contact Information</div>

@@ -1,0 +1,112 @@
+{
+  "ascii": [
+    " █████╗ ██████╗ ███╗   ██╗ █████╗ ██╗   ██╗",
+    "██╔══██╗██╔══██╗████╗  ██║██╔══██╗██║   ██║",
+    "███████║██████╔╝██╔██╗ ██║███████║██║   ██║",
+    "██╔══██║██╔══██╗██║╚██╗██║██╔══██║╚██╗ ██╔╝",
+    "██║  ██║██║  ██║██║ ╚████║██║  ██║ ╚████╔╝ ",
+    "╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝  ╚═══╝  ",
+    "    AGNIHOTRI - IIIT Hyderabad CSE ⚽"
+  ],
+  "title": "Arnav Agnihotri | Terminal",
+  "username": "arnav",
+  "hostname": "iiith",
+  "password": "football",
+  "repoLink": "https://github.com/cheetah671/personal-dashboard",
+  "social": {
+    "email": "arnav.agnihotri@students.iiit.ac.in",
+    "github": "cheetah671",
+    "linkedin": "arnav-agnihotri",
+    "phone": "+91 8076667285"
+  },
+  "aboutGreeting": "👋 Hi! I'm Arnav Agnihotri, a Computer Science student at IIIT Hyderabad.",
+  "about": [
+    "🎓 B.Tech in Computer Science & Engineering at IIIT Hyderabad (2024-Present)",
+    "📍 Born: Delhi, India | May 30, 2006",
+    "⚽ Passionate football player & basketball enthusiast",
+    "🏆 State Football Champion (2019) | National Taekwondo Bronze Medalist (2019)",
+    "📚 Academic Excellence: 98.6% (Class X) | 94.8% (Class XII)",
+    "🎯 JEE Advanced AIR 5094 | JEE Mains AIR 955",
+    "",
+    "When I'm not coding, you'll find me on the football field or basketball court.",
+    "Sports have taught me teamwork, discipline, and perseverance - values I bring to everything I do."
+  ],
+  "education": [
+    [
+      "IIIT Hyderabad",
+      "B.Tech Computer Science & Engineering",
+      "2024 - Present"
+    ],
+    [
+      "Amity International School, Mayur Vihar",
+      "Class XII (CBSE) - 94.8%",
+      "2024"
+    ],
+    [
+      "Amity International School, Vasundhara Sector 6",
+      "Class X (CBSE) - 98.6%",
+      "2022"
+    ]
+  ],
+  "achievements": [
+    "🥉 National Taekwondo Championship - Bronze Medal (2019)",
+    "🏆 State Football Championship - Champion (2019)",
+    "⚽ CBSE Cluster Football - School Representative (2018)",
+    "🎓 JEE Advanced - All India Rank 5094 (2024)",
+    "🎓 JEE Mains - All India Rank 955 (2024)",
+    "📚 Academic Excellence throughout school years",
+    "🏅 Multiple Science & Mathematics Olympiad Participations"
+  ],
+  "skills": {
+    "languages": ["Python", "C++", "Java", "JavaScript"],
+    "webDev": ["HTML/CSS", "React", "Node.js", "Django"],
+    "other": ["Data Structures", "Algorithms", "Machine Learning", "Git/GitHub"]
+  },
+  "hobbies": [
+    "⚽ Football - State Champion & District Level Player",
+    "🏀 Basketball - Regular Player",
+    "🏃 Athletics & Running",
+    "💻 Coding & Building Projects",
+    "🥋 Taekwondo - National Bronze Medalist"
+  ],
+  "projects": [
+    [
+      "Personal Dashboard",
+      "Interactive personal portfolio website with terminal interface",
+      "GITHUB_LINK_NEEDED_1"
+    ],
+    [
+      "Text Analysis Tool",
+      "Advanced text analyzer with word frequency, pronouns, and statistics",
+      "GITHUB_LINK_NEEDED_2"
+    ],
+    [
+      "Project Name 3",
+      "Description needed - Please provide",
+      "GITHUB_LINK_NEEDED_3"
+    ]
+  ],
+  "colors": {
+    "background": "#0a192f",
+    "foreground": "#e1f5fe",
+    "banner": "#4fc3f7",
+    "border": {
+      "visible": true,
+      "color": "#0288d1"
+    },
+    "prompt": {
+      "default": "#b3e5fc",
+      "user": "#4fc3f7",
+      "host": "#0288d1",
+      "input": "#4fc3f7"
+    },
+    "link": {
+      "text": "#4fc3f7",
+      "highlightColor": "#0288d1",
+      "highlightText": "#ffffff"
+    },
+    "commands": {
+      "textColor": "#4fc3f7"
+    }
+  }
+}
