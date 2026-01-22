@@ -212,7 +212,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <a href="https://linkedin.com/in/${info.linkedin}" target="_blank">
                     <i class="fab fa-linkedin"></i> LinkedIn
                 </a>
-                <a href="arnav_final_resume.pdf" target="_blank">
+                <a href="THE_FINAL_RESUME.pdf" target="_blank">
                     <i class="fas fa-file-pdf"></i> Resume
                 </a>
             </div>
@@ -314,7 +314,7 @@ function executeCommand(command) {
             break;
         case 'resume':
             result.innerHTML = '<p class="success">Opening resume in new tab...</p>';
-            setTimeout(() => window.open('arnav_final_resume.pdf', '_blank'), 500);
+            setTimeout(() => window.open('THE_FINAL_RESUME.pdf', '_blank'), 500);
             break;
         case 'social':
             result.innerHTML = getSocial();
